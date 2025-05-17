@@ -36,8 +36,8 @@ html, body {
   font-family: 'Kanit', sans-serif;
   background-color: #000;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.94),
-      rgba(0, 0, 0, 0.94)
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.95)
     ),
     url('https://img2.pic.in.th/pic/IMG_0009.webp') no-repeat center center fixed;
   background-size: cover;
@@ -66,7 +66,7 @@ body > div {
   pointer-events: none;
   background: linear-gradient(
     rgba(10, 10, 10, 0) 0%,
-    rgba(10, 10, 10, 0.1) 50%,
+    rgba(10, 10, 10, 0.8) 80%,
     rgba(10, 10, 10, 1) 100%
   );
 }
