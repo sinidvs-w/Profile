@@ -1,102 +1,352 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en" class="dark">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#000000" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="keywords" content="siyuncatlover, Vireth Dev, Developer, Programmer, Automation">
-  <meta name="author" content="Vireth">
-  <meta name="description" content="Profile page of Siyun, a student at Somewhere in Bangkok Thailand, showcasing work and projects.>
-  <meta property="og:image" content="https://img5.pic.in.th/file/secure-sv1/IMG_00057c9a33c124242338.jpeg">
-  <meta property="og:title" content="Siyun | Profile">
-  <meta property="og:description" content="Profile page of siyuncatlover, a student at ??? Bangkok Thailand, showcasing work and projects.">
-  <meta property="og:url" content="https://vireth.vercel.app">
-  <meta property="og:type" content="website">
-  <link rel="icon" href="https://img5.pic.in.th/file/secure-sv1/IMG_00057c9a33c124242338.jpeg" type="image/x-icon" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <title>Vireth</title>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-  <!-- Loading Animation -->
-  <div id="covers">
-    <div id="cover1" class="cover"></div>
-    <div id="loading">
-      <div class="loading-spinner"></div>
-      <div>Loading...</div>
+<body>
+  <div id="loading-screen">
+    <div class="loading-content">
+      <div class="gem-container">
+        <div class="glow-effect"></div>
+        <img 
+          src="https://img5.pic.in.th/file/secure-sv1/IMG_1322b5ea0e367c2d7b59.png"
+          alt="Soul Gem"
+          class="soul-gem"
+        />
+      </div>
+      <div class="loading-text">Loading...</div>
     </div>
   </div>
-<body>
-  <header class="banner"></header>
 
-  <main class="content">
-    <img src="https://img5.pic.in.th/file/secure-sv1/IMG_00057c9a33c124242338.jpeg" alt="รูปโปรไฟล์" class="profile-image fade-slide" />
-    <h1 class="profile-name fade-slide delay">siyuncatlover</h1>
-    <p class="profile-description fade-slide delay">
-      Hey there! you might known me by the name Yuu/Yun, a student from <a href="" class="highlight-link">Somewhere in Bangkok</a>, coding is my hobby.<br>
-      I'm a self-taught developer and I've been coding for about 2 years now. I mostly work with web development,<br>
-      also have experience in other fields like automation, game development, penetration testing, iOS/iPadOS app development, and more.
+  <nav id="navbar" class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-content">
+        <button class="logo-button" data-section="home">
+          <svg class="home-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+          <span class="logo-text">Homura</span>
+        </button>
 
-      
-    </p>
-
-    <section>
-        <h2 class="section-title fade-slide delay">My Skills</h2>
-        <div class="skills-container fade-slide delay">
-            <div class="skill-category">
-                <h3>Languages</h3>
-                <div class="skills-list">
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" loading="lazy">HTML5</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" loading="lazy">CSS3</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" loading="lazy">Node.js</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" loading="lazy">MongoDB</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" loading="lazy">Git</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="filter: invert(1);" alt="GitHub" loading="lazy">GitHub</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" loading="lazy">Bootstrap</span>
-                  
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy">JavaScript</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" loading="lazy">Swift</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" loading="lazy">Python</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" loading="lazy">C++</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" loading="lazy">C</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" alt="Rust" loading="lazy">Rust</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" loading="lazy">TypeScript</span>
-
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" loading="lazy">VSCode</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" alt="Xcode" loading="lazy">Xcode</span>
-                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" loading="lazy">Java</span>
-                </div>
-            </div>
+        <div class="desktop-menu">
+          <button class="nav-button" data-section="profile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            <span>Profile</span>
+          </button>
+          <button class="nav-button" data-section="skills">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="16 18 22 12 16 6"/>
+              <polyline points="8 6 2 12 8 18"/>
+            </svg>
+            <span>Skills</span>
+          </button>
+          <button class="nav-button" data-section="projects">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+            </svg>
+            <span>Projects</span>
+          </button>
+          <button class="nav-button" data-section="contact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>Contact</span>
+          </button>
         </div>
-    </section>
 
-    
-    
-    <section class="projects">
-      <h2 class="section-title fade-slide delay">My Projects 🚫</h2>
-      <div class="project-grid">
-        <div class="project-card fade-slide delay-1">
-          <a href="https://rekonise.com/rvireth-v15815-iqagw" target="_blank">
-            <img src="https://img5.pic.in.th/file/secure-sv1/IMG_00057c9a33c124242338.jpeg" alt="RVireth (ROV)" class="project-image" />
-          </a>
-          <h3 class="project-title"><i class="fas fa-star"></i> RVireth</h3>
-          <p class="project-description">A version of the ROV that can be skin mothed! Supports document browsers. (Stop developing)</p>
+        <button class="mobile-menu-button" id="mobile-menu-toggle">
+          <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+          <svg class="close-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu">
+        <button class="mobile-nav-button" data-section="profile">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          <span>Profile</span>
+        </button>
+        <button class="mobile-nav-button" data-section="skills">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+          </svg>
+          <span>Skills</span>
+        </button>
+        <button class="mobile-nav-button" data-section="projects">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+          </svg>
+          <span>Projects</span>
+        </button>
+        <button class="mobile-nav-button" data-section="contact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          <span>Contact</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="main-container">
+    <header class="hero-banner">
+      <div class="hero-gradient"></div>
+    </header>
+
+    <div id="profile" class="profile-card">
+      <div class="card-glass">
+        <div class="profile-content">
+          <div class="profile-image-container">
+            <img 
+              src="https://img2.pic.in.th/pic/IMG_13231da561178885a076.jpeg" 
+              alt="siyuncatlover"
+              class="profile-image"
+            />
+          </div>
+          
+          <div class="profile-info">
+            <h1 class="profile-name">muraho</h1>
+            <p class="profile-bio">
+              10 Reasons Why Homura Loves Madoka
+1.Because she’s literally the cinnamon roll of my life 😭
+2.her smile = instant brain melt 💖
+3.she’s got that chaotic good energy I stan 😎
+4.every time she talks I’m like “OMG how is she real?” 😩
+5.she lowkey saved my soul like 100 times 😵‍💫
+6.madoka = my permanent mood booster 🫶
+7.i would literally die for her comfort snacks 🍰
+8.she’s cute AND scary sometimes so big mood 😏
+9.homura’s heart = madoka’s personal playground 💘
+10.okay but fr… who doesn’t love madoka? 🫠
+              (i’m sorry if this is too much but i’m literally obsessed with her)
+            </p>
+          </div>
         </div>
-        
-        <div class="project-card fade-slide delay-2">
-          <a href="https://example.com/portfolio" target="_blank"></a>
-          <h3 class="project-title">Portfolio Website</h3>
-          <p class="project-description">This site! Built with HTML, CSS and JS.</p>
+      </div>
+    </div>
+
+    <section id="skills" class="skills-section">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="16 18 22 12 16 6"/>
+          <polyline points="8 6 2 12 8 18"/>
+        </svg>
+        <h2 class="section-title">My Skills</h2>
+      </div>
+
+      <div class="card-glass">
+        <div class="skills-grid">
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="skill-icon" loading="lazy">
+            <span>HTML5</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="skill-icon" loading="lazy">
+            <span>CSS3</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon" loading="lazy">
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" class="skill-icon" loading="lazy">
+            <span>TypeScript</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="skill-icon" loading="lazy">
+            <span>Node.js</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-icon" loading="lazy">
+            <span>Python</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" class="skill-icon" loading="lazy">
+            <span>Swift</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="skill-icon" loading="lazy">
+            <span>C++</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="skill-icon" loading="lazy">
+            <span>C</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" alt="Rust" class="skill-icon" loading="lazy">
+            <span>Rust</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-icon" loading="lazy">
+            <span>Java</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="skill-icon" loading="lazy">
+            <span>MongoDB</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="skill-icon" loading="lazy">
+            <span>Git</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="skill-icon" loading="lazy">
+            <span>GitHub</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="skill-icon" loading="lazy">
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" class="skill-icon" loading="lazy">
+            <span>VSCode</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" alt="Xcode" class="skill-icon" loading="lazy">
+            <span>Xcode</span>
+          </div>
         </div>
       </div>
     </section>
 
-  <footer class="footer">
-    <p>© 2025 siyuncatlover. All rights reserved.</p>
-    <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fvireth-dev.github.io%2FProfile%2F&label=meows+counter&icon=bookmark-heart-fill&color=%238c68cd" loading="lazy">
-  </footer>
+    <section id="projects" class="projects-section">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+        </svg>
+        <h2 class="section-title">My Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image-container">
+            <img 
+              src="https://img5.pic.in.th/file/secure-sv1/IMG_13104ba30874aaf57323.jpeg" 
+              alt="RVireth"
+              class="project-image"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">RVMod</h3>
+            <p class="project-description">
+              A version of the Arena of valor that can be skin modded! Supports document browsers. (Stop developing)
+            </p>
+            <a 
+              href="" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              <span>View Project</span>
+              <svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">About</h3>
+            <p class="project-description">
+              This site was made with Homura’s love for Madoka (for real)
+            </p>
+            <a href="#" class="project-link">
+              <span>View Project</span>
+              <svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="section-header-center">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">If you actually contact me, I’ll eat your head</p>
+      </div>
+
+      <div class="card-glass">
+        <div class="contact-list">
+          <a href="mailto:your.email@example.com" class="contact-item">
+            <div class="contact-icon-wrapper">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <h3 class="contact-label">Email</h3>
+              <p class="contact-value">homuralovemadoka@abc.com</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/sinidvs-w" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <div class="contact-icon-wrapper">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <h3 class="contact-label">GitHub</h3>
+              <p class="contact-value">@sinidvs-w</p>
+            </div>
+          </a>
+
+          <a href="https://twitter.com/xq0d_" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <div class="contact-icon-wrapper">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <h3 class="contact-label">Twitter</h3>
+              <p class="contact-value">@xq0d_</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="card-glass">
+        <div class="footer-content">
+          <p class="footer-text">© 2025 pilfynn. All rights reserved.</p>
+          <img 
+            src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fvireth-dev.github.io%2FProfile%2F&label=meows+counter&icon=bookmark-heart-fill&color=%238c68cd"
+            alt="Visitor counter"
+            class="visitor-counter"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
