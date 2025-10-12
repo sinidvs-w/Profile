@@ -470,7 +470,7 @@ body {
   background: var(--color-bg-card);
   backdrop-filter: blur(20px);
   border: 1px solid var(--color-border);
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   padding: 2rem;
   box-shadow: 
     0 4px 16px rgba(107, 76, 154, 0.15),
